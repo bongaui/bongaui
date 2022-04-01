@@ -1,0 +1,54 @@
+{
+  "name": "@bongaui/core",
+  "version": "0.0.1",
+  "description": "Base components for Bonga UI",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/bonga/bonga.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+  },
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "storybook": "start-storybook -p 6006 -s dist",
+    "build-storybook": "build-storybook -s dist",
+    "build-storybook-ci": "build-storybook -s dist -o docs-build",
+    "build-stencil:watch": "stencil build --docs-readme --watch --serve"
+  },
+  "dependencies": {
+    "@stencil/angular-output-target": "^0.4.0",
+    "@stencil/core": "^2.13.0",
+    "@stencil/react-output-target": "^0.3.1",
+    "@stencil/sass": "^1.5.2",
+    "@stencil/vue-output-target": "^0.6.0",
+    "@storybook/addon-knobs": "^6.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/html": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "@types/jest": "^27.0.3",
+    "babel-loader": "^8.2.3",
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5",
+    "puppeteer": "^10.0.0"
+  },
+  "license": "MIT"
+}
