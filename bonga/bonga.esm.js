@@ -1,0 +1,1 @@
+import{p as o,b as n}from"./p-13f63031.js";(()=>{const n=import.meta.url,p={};return""!==n&&(p.resourcesUrl=new URL(".",n).href),o(p)})().then((o=>n([["p-a019476e",[[1,"bonga-button",{color:[513],expand:[513]}]]]],o)));
