@@ -1,4 +1,4 @@
-name: Publish to NPM
+name: Publish Core to NPM
 on:
   release:
     types: [published]
@@ -15,7 +15,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies and build 🔧
         run: cd core && npm install && npm run build
-      - name: Publishing React package on NPM 📦
+      - name: Publishing Core package on NPM 📦
         run: cd core && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_SECRET }}
