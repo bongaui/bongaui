@@ -10,18 +10,15 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: Switching to core folder 🎚
-        run: |
-          cd core
       - name: Installing core dependencies 🧪 
         run: |
-          npm install
+          cd core && npm install
       - name: Building the core library 🏗
         run: |
-          npm run build
+          cd core && npm run build
       - name: Building Storybook distribution 🧱
         run: |
-          npm run build-storybook-ci
+          cd core && npm run build-storybook-ci
 
       - name: Deploy to github-pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.0
