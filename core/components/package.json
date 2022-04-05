@@ -1,6 +1,6 @@
 {
   "name": "@bongaui/core/components",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Bonga Components exported as custom elements, extending HTMLElement.",
   "main": "./index.js",
   "types": "./custom-elements.d.ts",
