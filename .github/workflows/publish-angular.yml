@@ -16,6 +16,6 @@ jobs:
       - name: Install dependencies and build 🔧
         run: cd angular && npm install && npm run build
       - name: Publishing Angular package on NPM 📦
-        run: cd angular && npm publish --access public
+        run: cd angular/dist && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_SECRET }}
