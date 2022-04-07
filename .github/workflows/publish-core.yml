@@ -3,7 +3,7 @@ on:
   release:
     types: [published]
 jobs:
-  build-core:
+  publish-core:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,7 +19,8 @@ jobs:
         run: cd core && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_SECRET }}
-  publish-core:
+  publish-angular:
+    needs: publish-core
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
