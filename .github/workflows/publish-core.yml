@@ -17,6 +17,8 @@ jobs:
         run: cd core && npm install && npm run build-ci
       - name: Publishing Core package on NPM 📦
         run: cd core && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_SECRET }}
       - name: Install dependencies and build 🔧
         run: cd angular && npm install && npm run build-ci
       - name: Publishing Angular package on NPM 📦
