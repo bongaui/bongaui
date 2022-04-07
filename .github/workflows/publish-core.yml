@@ -13,6 +13,10 @@ jobs:
         with:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
+      - name: Check package version
+        uses: technote-space/package-version-check-action@v1
+        with:
+          COMMIT_DISABLED: 1
       - name: Install dependencies and build 🔧
         run: cd core && npm install && npm run build-ci
       - name: Publishing Core package on NPM 📦
@@ -30,6 +34,10 @@ jobs:
         with:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
+      - name: Check package version
+        uses: technote-space/package-version-check-action@v1
+        with:
+          COMMIT_DISABLED: 1
       - name: Install dependencies and build 🔧
         run: cd angular && npm install && npm run build-ci
       - name: Publishing Angular package on NPM 📦
