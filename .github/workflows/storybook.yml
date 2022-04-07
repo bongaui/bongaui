@@ -14,6 +14,8 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Imprimir
+        run: echo "${{ github.event.inputs.version }}"
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
