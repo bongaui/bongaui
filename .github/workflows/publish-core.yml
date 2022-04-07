@@ -1,8 +1,7 @@
 name: Publish NPM
 on:
- push:
-   tags:
-     - 'v*'
+  release:
+    types: [published]
 jobs:
   publish-core:
     runs-on: ubuntu-latest
@@ -14,12 +13,11 @@ jobs:
         with:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
-      - name: Check package version
-        uses: technote-space/package-version-check-action@v1
-        with:
-          COMMIT_DISABLED: 1
       - name: Install dependencies and build 🔧
         run: cd core && npm install && npm run build-ci
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "[Bot] Updating Package version!"
       - name: Publishing Core package on NPM 📦
         run: cd core && npm publish --access public
         env:
@@ -35,12 +33,11 @@ jobs:
         with:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
-      - name: Check package version
-        uses: technote-space/package-version-check-action@v1
-        with:
-          COMMIT_DISABLED: 1
       - name: Install dependencies and build 🔧
         run: cd angular && npm install && npm run build-ci
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "[Bot] Updating Package version!"
       - name: Publishing Angular package on NPM 📦
         run: cd angular/dist && npm publish --access public
         env:
