@@ -1,8 +1,15 @@
 name: Build and Deploy Storybook
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      version:
+        required: true
+        type: choice
+        description: Which version should be published?
+        options:
+          - patch
+          - minor
+          - major
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
