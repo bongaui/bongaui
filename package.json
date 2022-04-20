@@ -1,0 +1,11 @@
+{
+  "description": "Bonga UI mono-repo root package.json, used mainly to execute build scripts. This package is not published to npm.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bonga UI Team",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
