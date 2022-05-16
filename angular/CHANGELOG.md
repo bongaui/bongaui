@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/bongaui/bongaui/compare/@bongaui/angular@0.2.0...@bongaui/angular@0.3.0) (2022-05-16)
+
+
+### Features
+
+* **angular:** Fixing angular build process ([17fd16f](https://github.com/bongaui/bongaui/commit/17fd16f8a18d4748dedd2ce60f0424e04e1294a7))
+* **root:** Fixing package stuff ([599e140](https://github.com/bongaui/bongaui/commit/599e1405c80ac299949b3f0165b9d6eb0cea2681))
+
+
+
+
+
 # [0.2.0](https://github.com-personal/bongaui/bongaui/compare/@bongaui/angular@0.1.0...@bongaui/angular@0.2.0) (2022-05-16)
 
 
