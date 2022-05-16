@@ -1,10 +1,6 @@
 {
   "name": "@bongaui/angular",
-<<<<<<< HEAD
-  "version": "0.0.8",
-=======
   "version": "0.1.0",
->>>>>>> main
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -17,12 +13,7 @@
     "directory": "dist"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@angular/compiler": "^13.3.8",
-    "@bongaui/core": "*",
-=======
     "@bongaui/core": "^0.1.0",
->>>>>>> main
     "tslib": "^2.3.0"
   },
   "peerDependencies": {
