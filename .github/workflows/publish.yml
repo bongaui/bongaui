@@ -32,7 +32,7 @@ jobs:
         run: npx lerna exec npm run test
 
       - name: Install dependencies and build 🔧
-        run: cd angular && npm install && npm run build-ci
+        run: cd angular && npm install && npm run build
       
       - name: "Version and publish" # Interesting step
         env:
