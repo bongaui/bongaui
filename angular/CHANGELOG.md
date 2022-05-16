@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/bongaui/bongaui/compare/@bongaui/angular@0.5.0...@bongaui/angular@0.6.0) (2022-05-16)
+
+
+### Features
+
+* **angular:** Rebuilding dist folder ([c232594](https://github.com/bongaui/bongaui/commit/c232594e0ca80ab652233e7428fb0cce32a2cfa2))
+
+
+
+
+
 # [0.5.0](https://github.com/bongaui/bongaui/compare/@bongaui/angular@0.4.0...@bongaui/angular@0.5.0) (2022-05-16)
 
 
