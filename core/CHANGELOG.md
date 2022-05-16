@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/ionic-team/stencil-component-starter/compare/@bongaui/core@0.2.0...@bongaui/core@0.3.0) (2022-05-16)
+
+
+### Features
+
+* **root:** Fixing package access ([ce558bd](https://github.com/ionic-team/stencil-component-starter/commit/ce558bd047b8502e4c44ce98dc9e1bdc18a4f415))
+
+
+
+
+
 # [0.2.0](https://github.com/ionic-team/stencil-component-starter/compare/@bongaui/core@0.1.2...@bongaui/core@0.2.0) (2022-05-16)
 
 
