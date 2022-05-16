@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com-personal/bongaui/bongaui/compare/@bongaui/angular@0.1.0...@bongaui/angular@0.2.0) (2022-05-16)
+
+
+### Features
+
+* **angular:** Cleaning package json ([32567ed](https://github.com-personal/bongaui/bongaui/commit/32567edc796d6dd6b38235b5012ba9a0be4c20f5))
+* **angular:** Fixing ([ce794f3](https://github.com-personal/bongaui/bongaui/commit/ce794f3c75902e279df74f1d37abb4342e7c3a6e))
+* **angular:** Fixing ([28193da](https://github.com-personal/bongaui/bongaui/commit/28193da454172be9aa0a41aebf5449e8a273ad3d))
+* **root:** Fixing the angular repo but it was not possible ([3cecd7f](https://github.com-personal/bongaui/bongaui/commit/3cecd7f1a74a4533bb64fe4a4bc9a47bbe54e9be))
+
+
+
+
+
 # 0.1.0 (2022-05-16)
 
 
