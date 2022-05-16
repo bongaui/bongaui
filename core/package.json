@@ -18,6 +18,9 @@
     "dist/",
     "loader/"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "stencil build --docs",
     "build-ci": "npm version patch && stencil build --docs",
@@ -52,5 +55,6 @@
     "jest-cli": "^27.4.5",
     "puppeteer": "^10.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "3645f0ae2f765893b2398f464b830105c4a33221"
 }

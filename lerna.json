@@ -1,4 +1,5 @@
 {
   "packages": ["core", "angular"],
-  "version": "independent"
+  "version": "independent",
+  "access": "public"
 }

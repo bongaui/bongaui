@@ -10,7 +10,8 @@
     "test": "echo ANGULAR TESTS PASSED"
   },
   "publishConfig": {
-    "directory": "dist"
+    "directory": "dist",
+    "access": "public"
   },
   "dependencies": {
     "@bongaui/core": "^0.0.4",
@@ -58,5 +59,6 @@
     "allowedNonPeerDependencies": [
       "@bongaui/core"
     ]
-  }
+  },
+  "gitHead": "3645f0ae2f765893b2398f464b830105c4a33221"
 }
