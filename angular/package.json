@@ -13,7 +13,7 @@
     "directory": "dist"
   },
   "dependencies": {
-    "@bongaui/core": "^0.1.0",
+    "@bongaui/core": "^0.0.4",
     "tslib": "^2.3.0"
   },
   "peerDependencies": {
