@@ -7,11 +7,11 @@ import { angularOutputTarget, ValueAccessorConfig } from '@stencil/angular-outpu
 export const config: Config = {
   namespace: 'bonga',
   outputTargets: [
-    /* react({
-      componentCorePackage: 'components-react',
-      proxiesFile: './frameworks/components-react/src/index.ts',
+    react({
+      componentCorePackage: '@bongaui/core',
+      proxiesFile: '../react/src/components/stencil-generated/index.ts',
       includeDefineCustomElements: true,
-    }), */
+    }),
     angularOutputTarget({
       componentCorePackage: '@bongaui/core',
       directivesProxyFile: '../angular/src/directives/proxies.ts',

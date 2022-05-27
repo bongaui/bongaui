@@ -32,8 +32,7 @@
     "target": "es2015",
     "baseUrl": ".",
     "paths": {
-      "@ionic/core/hydrate": ["../core/hydrate"],
-      "@ionic/core": ["../core"]
+      "@bongaui/core": ["../core"]
     },
     "plugins": [
       {

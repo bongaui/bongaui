@@ -14,7 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@bongaui/core": "^0.0.4",
+    "@bongaui/core": "^0.3.2",
     "tslib": "^2.3.0"
   },
   "peerDependencies": {

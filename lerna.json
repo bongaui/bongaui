@@ -1,5 +1,5 @@
 {
-  "packages": ["core", "angular"],
+  "packages": ["core", "angular", "react"],
   "version": "independent",
   "access": "public"
 }

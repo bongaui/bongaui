@@ -8,7 +8,7 @@ describe('bonga-button', () => {
       html: `<bonga-button></bonga-button>`,
     });
     expect(page.root).toEqualHtml(`
-      <bonga-button class="button-color-primary" color="primary">
+      <bonga-button>
         <mock:shadow-root>
           <button class="button-native">
             <slot></slot>
